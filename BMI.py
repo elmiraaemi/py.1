@@ -1,8 +1,6 @@
 a = int(input("height in cm : "))
 b = int(input("Weight in kg : "))
-c = (a/100)**2
-d = b/c
-
+d = b/((a/100)**2)
 
 if 19 <= d <= 24.99:
     print("normal")
